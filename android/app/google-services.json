@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565994743759",
+    "project_id": "shantravels-934d0",
+    "storage_bucket": "shantravels-934d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565994743759:android:d8421b7bb3603f2df854ba",
+        "android_client_info": {
+          "package_name": "com.android.shan_travel_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4cELbBiNJNbeN32XVKRCuvlrca6bQWlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
