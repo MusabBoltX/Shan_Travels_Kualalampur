@@ -101,7 +101,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                           children: const [
                             HotelsBox(),
                             SizedBox(height: 10),
-                            TourEscortsBox(),
+                            FoodssBox(),
                           ],
                         ),
                       ],

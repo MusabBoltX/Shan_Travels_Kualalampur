@@ -4,8 +4,8 @@ import 'package:phoenix_travel_app/src/core/constants.dart';
 import 'package:phoenix_travel_app/src/core/size_config.dart';
 import 'package:phoenix_travel_app/src/views/onboarding/components/food.dart';
 
-class TourEscortsBox extends StatelessWidget {
-  const TourEscortsBox({Key? key}) : super(key: key);
+class FoodssBox extends StatelessWidget {
+  const FoodssBox({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,12 +20,18 @@ class TourEscortsBox extends StatelessWidget {
         child: Stack(
           children: [
             ImageGradient(
-              image: Image.asset("assets/tg.png"),
-                gradient: LinearGradient(
-                  begin: const Alignment(0.00, -1.00),
-                  end: const Alignment(0, 1),
-                  colors: [const Color(0xFFDA3861).withOpacity(0.8), const Color(0xFF3B2666).withOpacity(0.8)],
-                ),
+              image: Image.asset(
+                "assets/tg.png",
+                width: getProportionateScreenWidth(145.0),
+              ),
+              gradient: LinearGradient(
+                begin: const Alignment(0.00, -1.00),
+                end: const Alignment(0, 1),
+                colors: [
+                  const Color(0xFFDA3861).withOpacity(0.8),
+                  const Color(0xFF3B2666).withOpacity(0.8)
+                ],
+              ),
             ),
             // Container(
             //   width: 160,
@@ -61,7 +67,8 @@ class TourEscortsBox extends StatelessWidget {
                       color: baseWhitePlain,
                       fontSize: 16,
                     ),
-                  ),                ],
+                  ),
+                ],
               ),
             ),
           ],

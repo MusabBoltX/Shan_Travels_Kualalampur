@@ -32,7 +32,11 @@ class HotelsBox extends StatelessWidget {
                   const Color(0xFFDA3861).withOpacity(0.8)
                 ],
               ),
-              image: Image.asset("assets/hotels_bg.png", fit: BoxFit.cover),
+              image: Image.asset(
+                "assets/hotels_bg.png",
+                width: getProportionateScreenWidth(145.0),
+                fit: BoxFit.cover,
+              ),
             ),
             Positioned(
               left: 1,
@@ -55,7 +59,8 @@ class HotelsBox extends StatelessWidget {
                       color: baseWhitePlain,
                       fontSize: 16,
                     ),
-                  ),                ],
+                  ),
+                ],
               ),
             ),
           ],

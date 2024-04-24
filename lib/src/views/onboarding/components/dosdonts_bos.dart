@@ -25,7 +25,10 @@ class DosDontBox extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(19),
               child: ImageGradient(
-                image: Image.asset("assets/dashboard/dos_bg.png"),
+                image: Image.asset(
+                  "assets/dashboard/dos_bg.png",
+                  width: getProportionateScreenWidth(300.0),
+                ),
                 gradient: const LinearGradient(
                   begin: Alignment(1.00, 0.00),
                   end: Alignment(-1, 0),

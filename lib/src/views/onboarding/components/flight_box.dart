@@ -30,7 +30,10 @@ class FlightBox extends StatelessWidget {
                   const Color(0xFF0F3039).withOpacity(0.7),
                 ],
               ),
-              image: Image.asset("assets/flight_bg.png"),
+              image: Image.asset(
+                "assets/flight_bg.png",
+                width: getProportionateScreenWidth(145.0),
+              ),
             ),
             Positioned(
               left: 1,

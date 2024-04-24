@@ -33,7 +33,7 @@ class ItenararyBox extends StatelessWidget {
               ),
               image: Image.asset(
                 "assets/itenary_bg.png",
-                width: SizeConfig.screenWidth!,
+                width: getProportionateScreenWidth(300.0),
               ),
             ),
             // Container(

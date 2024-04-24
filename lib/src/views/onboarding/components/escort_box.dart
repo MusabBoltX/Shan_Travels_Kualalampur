@@ -24,7 +24,7 @@ class EscortBox extends StatelessWidget {
             ImageGradient(
               image: Image.asset(
                 "assets/escorts_bg.png",
-                // width: SizeConfig.screenWidth! / 2.2,
+                width: getProportionateScreenWidth(145.0),
               ),
               gradient: LinearGradient(
                 begin: const Alignment(-0.00, -1.00),
