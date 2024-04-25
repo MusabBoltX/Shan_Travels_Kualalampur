@@ -1,11 +1,11 @@
 {
-    "name": "phoenix_travel_app",
-    "short_name": "phoenix_travel_app",
+    "name": "ShanTravels",
+    "short_name": "ShanTravels",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Travel App for client",
+    "description": "Travel App",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

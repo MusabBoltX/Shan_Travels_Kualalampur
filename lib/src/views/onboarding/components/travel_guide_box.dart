@@ -13,7 +13,9 @@ class FoodssBox extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.push(
-            context, CupertinoPageRoute(builder: (_) => const FoodOptions()));
+          context,
+          CupertinoPageRoute(builder: (_) => const FoodOptions()),
+        );
       },
       child: SizedBox(
         width: getProportionateScreenWidth(145.0),
@@ -61,7 +63,7 @@ class FoodssBox extends StatelessWidget {
                     scale: 1.5,
                   ),
                   Text(
-                    "Tour Escorts",
+                    "Food Options",
                     style: TextStyle(
                       fontWeight: FontWeight.w400,
                       color: baseWhitePlain,
